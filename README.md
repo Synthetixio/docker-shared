@@ -1,5 +1,9 @@
-# JS Template
+# docker-shared
 
-Start a new project using me as a template!
+## Description
 
-Run `npm init` to name and configure.
+Shared resources used across Synthetix docker images.
+
+## Resources
+
+* `generate-dockerfile.js` - script used to generate dockerfiles with provided tags and versions from `versions.json` file.
