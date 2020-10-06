@@ -4,8 +4,10 @@
   "description": "Shared resources used across Synthetix docker images.",
   "main": "index.js",
   "dependencies": {
+    "axios": "^0.20.0",
     "dockerfile-template": "0.2.0",
-    "minimist": "1.2.5"
+    "minimist": "1.2.5",
+    "underscore": "^1.11.0"
   },
   "devDependencies": {
     "eslint": "7.10.0",
