@@ -70,7 +70,7 @@ async function createDockerfiles(template, versions) {
 		versions.map(version => {
 			const nodeVersionParts = version.nodeVersion.split('.');
 			const nodeFolderName = `${nodeVersionParts[0]}.${nodeVersionParts[1]}`;
-			createDockerfile(template, `${outputDirectory}/${version.distro}/${nodeFolderName}/Dockerfile`, version);
+			return createDockerfile(template, `${outputDirectory}/${version.distro}/${nodeFolderName}/Dockerfile`, version);
 		}),
 	);
 }
