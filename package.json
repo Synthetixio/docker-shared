@@ -1,18 +1,20 @@
 {
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
   "description": "Shared resources used across Synthetix docker images.",
-  "main": "index.js",
+  "main": "generate-dockerfile.js",
+  "type": "module",
   "dependencies": {
-    "dockerfile-template": "0.2.0",
-    "minimist": "1.2.5"
+    "fs-extra": "10.0.0",
+    "nunjucks": "3.2.3",
+    "rimraf": "3.0.2"
   },
   "devDependencies": {
-    "eslint": "7.10.0",
-    "eslint-config-prettier": "6.12.0",
-    "eslint-plugin-import": "2.22.1",
-    "eslint-plugin-prettier": "3.1.4",
-    "prettier": "2.1.2"
+    "eslint": "7.32.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-import": "2.23.4",
+    "eslint-plugin-prettier": "3.4.0",
+    "prettier": "2.3.2"
   },
   "scripts": {
     "generate": "node generate-dockerfile.js",
