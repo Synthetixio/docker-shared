@@ -29,6 +29,10 @@ async function getVersions(file) {
 				yarnVersion: config.yarnVersion,
 				npmVersion: config.npmVersion,
 				vercelVersion: config.vercelVersion,
+				lockfilelintVersion: config.lockfilelintVersion,
+				auditCiVersion: config.auditCiVersion,
+				auditJsVersion: config.auditJsVersion,
+				containerDiffVersion: config.containerDiffVersion,
 			});
 		}
 	}
