@@ -29,10 +29,21 @@ async function getVersions(file) {
 				yarnVersion: config.yarnVersion,
 				npmVersion: config.npmVersion,
 				vercelVersion: config.vercelVersion,
+				// docker-sec-tools
 				lockfilelintVersion: config.lockfilelintVersion,
 				auditCiVersion: config.auditCiVersion,
 				auditJsVersion: config.auditJsVersion,
 				containerDiffVersion: config.containerDiffVersion,
+				// docker-e2e
+				chromeVersion: config.chromeVersion,
+				firefoxVersion: config.firefoxVersion,
+				lhciVersion: config.lhciVersion,
+				lhVersion: config.lhVersion,
+				sitespeedioVersion: config.sitespeedioVersion,
+				webdriverManagerVersion: config.webdriverManagerVersion,
+				seleniumStandaloneVersion: config.seleniumStandaloneVersion,
+				chromedriverVersion: config.chromedriverVersion,
+				geckodriverVersion: config.geckodriverVersion,
 			});
 		}
 	}
