@@ -29,6 +29,7 @@ async function getVersions(file) {
 				yarnVersion: config.yarnVersion,
 				npmVersion: config.npmVersion,
 				vercelVersion: config.vercelVersion,
+				codecovVersion: config.codecovVersion,
 				// docker-sec-tools
 				lockfilelintVersion: config.lockfilelintVersion,
 				auditCiVersion: config.auditCiVersion,
