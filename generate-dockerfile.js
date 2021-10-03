@@ -18,6 +18,7 @@ async function getVersions(file) {
 	for (const distroVersion of config.distro) {
 		for (const nodeVersion of config.nodeVersion) {
 			versions.push({
+				// docker-node
 				distro: distroVersion,
 				nodeVersion: nodeVersion,
 				alpineVersion: config.alpineVersion,
@@ -29,6 +30,7 @@ async function getVersions(file) {
 				yarnVersion: config.yarnVersion,
 				npmVersion: config.npmVersion,
 				vercelVersion: config.vercelVersion,
+				amplifyVersion: config.amplifyVersion,
 				// docker-sec-tools
 				lockfilelintVersion: config.lockfilelintVersion,
 				auditCiVersion: config.auditCiVersion,
