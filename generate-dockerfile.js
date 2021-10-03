@@ -35,6 +35,7 @@ async function getVersions(file) {
 				auditJsVersion: config.auditJsVersion,
 				containerDiffVersion: config.containerDiffVersion,
 				codecovVersion: config.codecovVersion,
+				slitherVersion: config.slitherVersion,
 				// docker-e2e
 				chromeVersion: config.chromeVersion,
 				firefoxVersion: config.firefoxVersion,
