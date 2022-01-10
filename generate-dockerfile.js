@@ -29,7 +29,6 @@ async function getVersions(file) {
 				debianSha256: config.debianSha256,
 				yarnVersion: config.yarnVersion,
 				npmVersion: config.npmVersion,
-				vercelVersion: config.vercelVersion,
 				// docker-sec-tools
 				lockfilelintVersion: config.lockfilelintVersion,
 				auditCiVersion: config.auditCiVersion,
