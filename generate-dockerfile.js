@@ -29,7 +29,7 @@ async function getVersions(file) {
 				debianSha256: config.debianSha256,
 				yarnVersion: config.yarnVersion,
 				npmVersion: config.npmVersion,
-				pm2Version: config.npmVersion,
+				pm2Version: config.pm2Version,
 				// docker-sec-tools
 				lockfilelintVersion: config.lockfilelintVersion,
 				auditCiVersion: config.auditCiVersion,
