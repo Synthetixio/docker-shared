@@ -47,6 +47,8 @@ async function getVersions(file) {
 				seleniumStandaloneVersion: config.seleniumStandaloneVersion,
 				chromedriverVersion: config.chromedriverVersion,
 				geckodriverVersion: config.geckodriverVersion,
+				typescriptVersion: config.typescriptVersion,
+				cypressVersion: config.cypressVersion,
 			});
 		}
 	}
