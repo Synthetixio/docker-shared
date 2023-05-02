@@ -32,6 +32,7 @@ async function getVersions(file) {
 				pm2Version: config.pm2Version,
 				trunkVersion: config.trunkVersion,
 				pnpmVersion: config.pnpmVersion,
+				turboVersion: config.turboVersion,
 				// docker-sec-tools
 				lockfilelintVersion: config.lockfilelintVersion,
 				auditCiVersion: config.auditCiVersion,
