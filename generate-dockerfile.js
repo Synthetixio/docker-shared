@@ -30,7 +30,6 @@ async function getVersions(file) {
 				yarnVersion: config.yarnVersion,
 				npmVersion: config.npmVersion,
 				pm2Version: config.pm2Version,
-				trunkVersion: config.trunkVersion,
 				pnpmVersion: config.pnpmVersion,
 				turboVersion: config.turboVersion,
 				// docker-sec-tools
