@@ -35,7 +35,6 @@ async function getVersions(file) {
 				// docker-sec-tools
 				lockfilelintVersion: config.lockfilelintVersion,
 				auditCiVersion: config.auditCiVersion,
-				auditJsVersion: config.auditJsVersion,
 				containerDiffVersion: config.containerDiffVersion,
 				codecovVersion: config.codecovVersion,
 				slitherVersion: config.slitherVersion,
